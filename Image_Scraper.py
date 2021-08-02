@@ -8,9 +8,9 @@ import os
 import urllib.request
 
 #Set of inputs
-path="E:/Accenture/Image_Classifier/" # Path for the folder where the images must be scraped to
-folder_name="Myntra" #Folder name which needs to be changed along with URL
-url="https://www.myntra.com/" #URL of the E-Commerce website
+path="" # Path for the folder where the images must be scraped to
+folder_name="" #Folder name which needs to be changed along with URL
+url="" #URL of the E-Commerce website
 
 DRIVER_PATH = 'C:/chromedriver_win32/chromedriver.exe' # Path to the chrome driver
 #Code to open the website and scroll till bottom to make sure the webpage loads till the end
